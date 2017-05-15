@@ -5,6 +5,7 @@
 
 grammar Lua;
 
+
 /*@members {
 *   public static String grupo="<<Digite os RAs do grupo aqui>>";
 *}

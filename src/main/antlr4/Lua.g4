@@ -5,6 +5,8 @@
 
 grammar Lua;
 Nome : [a-zA-Z] [a-zA-Z0-9_]* ;
+Numero: [0-9][0-9]* ('.' [0-9]+)?;
+Cadeia: '"' ()* '"';
 trecho : (comando (';')?)* (ultimocomando (';')?)?;
 bloco : trecho;
 comando :   listavar '=' listaexp |

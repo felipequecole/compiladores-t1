@@ -33,7 +33,7 @@ public class Corrigir {
     // A nota que você obtiver aqui será usada no cálculo de sua nota do trabalho
     
     public static void main(String[] args) throws IOException, RecognitionException {
-/*        File diretorioCasosTeste = new File(CAMINHO_CASOS_TESTE + "/entrada");
+/*      File diretorioCasosTeste = new File(CAMINHO_CASOS_TESTE + "/entrada");
         File[] casosTeste = diretorioCasosTeste.listFiles();
         int totalCasosTeste = casosTeste.length;
         int casosTesteErrados = 0;

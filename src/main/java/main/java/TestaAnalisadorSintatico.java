@@ -8,7 +8,7 @@ import org.antlr.v4.runtime.RecognitionException;
 public class TestaAnalisadorSintatico {
 
     public static void main(String args[]) throws IOException, RecognitionException {
-        SaidaParser out = new SaidaParser();
+        main.java.SaidaParser out = new SaidaParser();
 // Descomente as linhas abaixo para testar o analisador gerado.
 // Obs: a linha abaixo está configurada para usar como entrada o arquivo lua1.txt
 // Modifique-a para testar os demais exemplos
